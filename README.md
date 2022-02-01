@@ -1,2 +1,17 @@
-# PythonLearning
-Python is an accessible, on-demand programming language with an active and growing user community. It is relatively easy to learn and incredibly versatile, having been used in a variety of fields, from data science and machine learning to game design.
+# Python Learning
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/82126489/151898842-d634d89b-7a2d-4508-b1fc-7b40ba26e5ff.png" alt="Python Icon"/>
+</p>
+Python is an interpreted high-level, multi-paradigm, general-purpose programming language. It is designed to have code readability.
+
+## Why learn Python?
+* Python is Beginner-Friendly
+* Python is Versatile
+* Python is On-Demand
+* Python has had the fastest-growing
+* Python is used in a variety of fields
+
+<!---
+## Projects
+- <a href="./route" target="_blank">Example_name</a>
+--->
