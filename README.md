@@ -11,9 +11,8 @@ Python is an interpreted high-level, multi-paradigm, general-purpose programming
 * Python has had the fastest-growing
 * Python is used in a variety of fields
 
-<!---
-## Projects
-- <a href="./route" target="_blank">Example_name</a>
---->
+## Codes
+* ### Fundamentals
+    - <a href="./Fundamentals" target="_blank">Welcome to Python</a>
 
 ## [Repository - Club de Software EPN](https://github.com/Club-de-Software-EPN/PythonTraining.git)
