@@ -14,5 +14,7 @@ Python is an interpreted high-level, multi-paradigm, general-purpose programming
 ## Codes
 * ### Fundamentals
     - <a href="./Fundamentals/01.Hello.py" target="_blank">Welcome to Python</a>
+    - <a href="./Fundamentals/02.InputOutput.py" target="_blank">Inputs & Outputs</a>
+    - <a href="./Fundamentals/03.Variables.py" target="_blank">Variables</a>
 
 ## [Repository - Club de Software EPN](https://github.com/Club-de-Software-EPN/PythonTraining.git)
