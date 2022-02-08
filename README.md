@@ -22,5 +22,6 @@ Python is an interpreted high-level, multi-paradigm, general-purpose programming
 
 * ### Exercises
     - <a href="./Exercises/01.SolveEquation.py" target="_blank">Simple Equations Solver</a>
+    - <a href="./Exercises/02.Strings.py" target="_blank">Reorder a String/Links Validator</a>
 
 ## [Repository - Club de Software EPN](https://github.com/Club-de-Software-EPN/PythonTraining.git)
