@@ -1,7 +1,3 @@
-from pickletools import string1
-from readline import clear_history
-
-
 simple = str('\tStrings\nSimple string')
 print(simple)
 multipleLines = '''
