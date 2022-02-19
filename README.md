@@ -19,9 +19,13 @@ Python is an interpreted high-level, multi-paradigm, general-purpose programming
     - <a href="./Fundamentals/04.Assignment.py" target="_blank">Assignment</a>
     - <a href="./Fundamentals/05.IntegersFloats.py" target="_blank">Numbers</a>
     - <a href="./Fundamentals/06.Strings.py" target="_blank">Strings</a>
+    - <a href="./Fundamentals/07.Booleans.py" target="_blank">Strings</a>
+    - <a href="./Fundamentals/08.Coditionals.py" target="_blank">Strings</a>
 
 * ### Exercises
     - <a href="./Exercises/01.SolveEquation.py" target="_blank">Simple Equations Solver</a>
     - <a href="./Exercises/02.Strings.py" target="_blank">Reorder a String/Links Validator</a>
+    - <a href="./Exercises/03.Conditionals.py" target="_blank">Palindrome Validator</a>
+    - <a href="./Exercises/04.EvenorOdd.py" target="_blank">Even or Odd</a>
 
 ## [Repository - Club de Software EPN](https://github.com/Club-de-Software-EPN/PythonTraining.git)
