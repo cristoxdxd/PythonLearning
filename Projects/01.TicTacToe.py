@@ -1,3 +1,5 @@
+from random import randint
+
 global Player1Name
 Player1Name = 'Player 1'
 global Player2Name
@@ -48,11 +50,41 @@ def PlayersSimbols():
     else:
         print('Invalid option. Enter a valid option')
 
-def Play():
-    pass
+def createBoard():
+    matrix = []
+    nRows = 3
+    nColumns = 3
+    for i in range(nRows):
+        matrix.append(['-'] * nColumns)
+    size = (nRows,nColumns)
+    return matrix, size
 
-def showBoard():
-    pass
+def showBoard(matrix, size):
+    rows, columns = size
+    for i in range(rows):
+        for j in range(columns):
+            print(matrix[i][j], end='\t')
+        print('')
+
+def fillBoard(matrix, simbol):
+    nRows = int(input('Enter the row: '))
+    nColumns = int(input('Enter the column: '))
+    matrix[nRows-1][nColumns-1] = simbol
+
+def Play(Board, size):
+    end = False
+    showBoard(Board, size)
+    turn = randint(1,2)
+    while end == False:
+        if turn == 1:
+            print('\n\tIt\'s turn of', Player1Name)
+            fillBoard(Board,Simbol1)
+            turn = 2
+        else:
+            print('\n\tIt\'s turn of', Player2Name)
+            fillBoard(Board, Simbol2)
+            turn = 1
+        showBoard(Board,size)
 
 def main():
     gameOver = False
@@ -63,7 +95,8 @@ def main():
         elif option == '2':
             PlayersSimbols()
         elif option == '3':
-            Play()
+            Board, size = createBoard()
+            Play(Board,size)
         elif option == '4':
             gameOver = True
         else:
