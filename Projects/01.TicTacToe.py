@@ -76,15 +76,39 @@ def Play(Board, size):
     showBoard(Board, size)
     turn = randint(1,2)
     while end == False:
+        currentSimbol = ''
+        currentPlayer = ''
         if turn == 1:
             print('\n\tIt\'s turn of', Player1Name)
+            currentSimbol = Simbol1
+            currentPlayer = Player1Name
             fillBoard(Board,Simbol1)
             turn = 2
         else:
             print('\n\tIt\'s turn of', Player2Name)
+            currentSimbol = Simbol2
+            currentPlayer = Player2Name
             fillBoard(Board, Simbol2)
             turn = 1
         showBoard(Board,size)
+
+        if Board[0][0] == currentSimbol and Board[0][1] == currentSimbol and Board[0][2] == currentSimbol:
+            end = True            
+        if Board[1][0] == currentSimbol and Board[1][1] == currentSimbol and Board[1][2] == currentSimbol:           
+            end = True        
+        if Board[2][0] == currentSimbol and Board[2][1] == currentSimbol and Board[2][2] == currentSimbol:           
+            end = True
+        if Board[0][0] == currentSimbol and Board[1][0] == currentSimbol and Board[2][0] == currentSimbol:
+            end = True            
+        if Board[0][1] == currentSimbol and Board[1][1] == currentSimbol and Board[2][1] == currentSimbol:
+            end = True     
+        if Board[0][2] == currentSimbol and Board[1][2] == currentSimbol and Board[2][2] == currentSimbol:
+            end = True
+        if Board[0][0] == currentSimbol and Board[1][1] == currentSimbol and Board[2][2] == currentSimbol:
+            end = True            
+        if Board[2][0] == currentSimbol and Board[1][1] == currentSimbol and Board[0][2] == currentSimbol:
+            end = True 
+    print('\n\tGame Over!\n\n\t' + currentPlayer + ' wins!')
 
 def main():
     gameOver = False
@@ -98,6 +122,7 @@ def main():
             Board, size = createBoard()
             Play(Board,size)
         elif option == '4':
+            print('Thanks for playing. See you later!')
             gameOver = True
         else:
             print('Invalid option. Enter a valid option')
