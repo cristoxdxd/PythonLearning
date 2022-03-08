@@ -1,0 +1,6 @@
+Soccer:87
+Basketball:82
+Tennis:83
+Golf:89
+Swimming:87
+Karate:72
