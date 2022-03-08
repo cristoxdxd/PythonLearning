@@ -32,5 +32,6 @@ File = open('ExerciseSummary.txt','w')
 File.close()
 
 with open('ExerciseSummary.txt', mode='w+') as myFile:
+    myFile.write(str('Sport: Times'+'\n'))
     for i in range(len(sports)):
         myFile.write(sports[i]+':'+str(sportsCounters[i])+'\n')
